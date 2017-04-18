@@ -44,7 +44,7 @@ public class MiPrimerBackingBean {
         }
         
         return IntStream.rangeClosed(1, numero)
-                .filter(i->(numero%i==0))
+                .filter(   i   ->(numero%i==0))
                 .boxed().collect(Collectors.toList());
         
         /*
